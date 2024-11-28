@@ -15,7 +15,7 @@ $(document).ready(function() {
     }, jQuery.validator.format('The minimum value must be lower than the maximum value.'));
 
     jQuery.validator.addMethod('notFartherApartThan', function (value, element, param) {
-        return parseInt(value) < parseInt($(param).val()) + 100;
+        return parseInt(value) < parseInt($(param).val()) + 101;
     }, jQuery.validator.format('The difference between the minimum and maximum values must not exceed 100.'));
 
     jQuery.validator.addMethod('withinBoundaries', function (value, element) { 
