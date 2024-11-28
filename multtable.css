@@ -41,7 +41,7 @@ input {
 /* Only let users input numbers to save everybody a headache. */
 input[type=number] {
     border-radius: 4px;
-    width: 3em;
+    width: 65px;
 }
 
 /* Should be clear when the button is hit. */
